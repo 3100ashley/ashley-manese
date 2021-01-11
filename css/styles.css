@@ -1,0 +1,364 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-color: #B0B4BD;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 8%;
+}
+
+h1 {
+  color: #D2A39F;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.06rem;
+  margin: 50px auto 0 auto;
+  margin-top: 0;
+}
+
+h2 {
+  color: #DAC1C4;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 15px;
+}
+
+h3 {
+  color: #DAC1C4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color:#14274e;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #DAC1C4;
+}
+/*---------- LANDING PAGE -----------*/
+/* #F8F3EF */
+.top-container {
+  background-color: white;
+  padding-top: 125px;
+  height: 250px;
+}
+
+.programmer {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 45px;
+}
+/* #F8F3EF */
+.middle-container {
+  background-color: white;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.me {
+  border-radius: 100%;
+  height: 350;
+  width: 200px;
+  margin-bottom:50px;
+}
+/*---------- ABOUT ME -----------*/
+.introduction {
+  margin: auto auto auto auto;
+  width: 30%;
+  text-align: left;
+}
+.about-me-container h2 {
+  font-family: Montserrat;
+  text-align: center;
+  padding-top: 50px;
+  color: #393e46;
+
+}
+.about-me-container{
+  background-color: #F0F0F0;
+  height: 100%;
+  padding-bottom: 25px;
+
+}
+
+.introduction p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#img-console {
+	width: 100%;
+  justify-content: center;
+}
+#console {
+	margin: 40px;
+	margin-top: 20px;
+	padding: 30px;
+	overflow-y:auto;
+	line-height: 22px;
+	height: 390px;
+	width: 550px;
+	font-size: 90%;
+	font-family: Monaco,monospace;
+	border-top: 20px solid #e5e5e5;
+	border-radius: 4px;
+	background-color: #2a2d34;
+	box-shadow: 12px 12px 1px #d7d3e7;
+  text-align: left;
+
+}
+
+#console a {
+	text-decoration: underline;
+}
+
+.first-color {
+	color: #ac78c2;
+}
+.second-color {
+	color: #c5c8c6;
+}
+
+.third-color {
+	color: #5888ca;
+}
+
+.fourth-color {
+	color: #f0c674;
+}
+
+.fifth-color {
+	color: #b5bd68;
+}
+
+
+#about-img {
+	height: 450px;
+	border-radius: 4px;
+	border-top: 20px solid #e5e5e5;
+	box-shadow: 12px 12px 1px #d7d3e7;
+	overflow-y:hidden;
+	margin: 40px;
+	margin-top: 20px;
+}
+
+
+/* ----------------------EDUCATION-----------------------*/
+.education-container {
+  background-color:#F0F0F0 ;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 25px;
+}
+.education{
+  margin: auto auto auto auto;
+  width: 58%;
+
+}
+
+.education h2 {
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 0;
+  color: #5c6e91;
+}
+
+.education-list li{
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 150px auto
+}
+
+.education-list li p{
+  text-align: left;
+}
+
+.education-list h3{
+  color: #5c6e91;
+}
+
+/*---------- SKILLS -----------*/
+/* #d4e2d4 */
+
+.skills {
+  background-color: #eff8ff;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.skills h2 {
+  margin-top: 0;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  color: #00254d;
+}
+.card-item{
+  list-style-type: none;
+}
+
+.card {
+  margin-bottom: 70px;
+}
+
+.caption-title{
+  color: #00254d;
+}
+
+
+/*---------- WORK -----------*/
+.work-exp {
+  background-color: #eff8ff;
+  padding-bottom: 35px;
+}
+
+.work-exp h2{
+  padding-top: 50px;
+  padding-bottom: 45px;
+  margin-top: 0;
+  color: #456268;
+
+
+}
+.work-row{
+  margin: auto auto 50px auto;
+  text-align: left;
+  width: 60%;
+}
+
+.work-row h3{
+  color: #03506f;
+}
+
+.work-row p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*---------- PROJECTS -----------*/
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects {
+  background-color: #474d5a;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-bottom: 30px;
+}
+.projects h2 {
+  padding-top: 50px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.projects-row{
+  margin: auto auto auto auto;
+  text-align: left;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 300px auto;
+  padding-bottom: 25px;
+}
+
+.personal-website {
+  margin-top: 50px;
+
+}
+.projects-row p{
+  padding-left: 10px;
+  text-align: justify;
+  padding: 0;
+
+
+
+}
+figure img{
+  width: 225px;
+}
+
+
+/*---------- CONTACT ME-----------*/
+.contact-me{
+    /* background: #5f6e7d; */
+    margin: 0;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+.contact-me h2{
+  padding-top: 50px;
+  margin-top: 0;
+  color: #333456;
+
+}
+
+
+
+/*---------- FOOTER -----------*/
+.bottom-container {
+  background-color: #D2A39F;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin: 0
+}
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+}
+
+
+@media screen and (min-width:1170px) {
+  .about-me{
+    display: flex;
+  }
+
+  .introduction {
+    margin-left: 200px;
+    margin-right: 100px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+  .card-item{
+    width: 350px;
+  }
+
+  .contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+
+}
+
+@media screen and (max-width:1171px) {
+  #console {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+}
