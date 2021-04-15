@@ -9,26 +9,45 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="images/A.png">
   <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Glass+Antiqua&family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-
+  
 </head>
 
 <body>
+  <!--Navigation Bar-->
+  <div id="nav" class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+        <a href="#home"><img id="nav-logo" src="images/A.png" alt="logo"></a>
+        <a href="#about-section">ABOUT</a>
+        <a href="#skill-section">SKILLS</a>
+        <a href="#project-section">PROJECTS</a>
+        <a href="#experience-section">EXPERIENCE</a>
+        <a href="#education-section">EDUCATION</a>
+    </div>
+    
+  </div>
+  
   <!-- LANDING PAGE  -->
-  <div class="top-container">
-    <h1>I'm Ashley</h1>
-    <p id="app" class="programmer"></p>
+  <div id="home" class="top-container">
+    <div>
+      <h1>I'm Ashley</h1>
+      <p id="app" class="programmer"></p>
+    </div>
+    <img class="me" src="images/bitmoji.png" alt="Profile-img">
+   
   </div>
 
   <div class="middle-container">
-    <div class="profile">
-      <img class="me" src="images/Profile.png" alt="Profile-img">
-      <hr>
-  </div>
+    
+
+
   <!-- ABOUT ME  -->
-  <section class="about-me-container">
+  <!--source: https://github.com/chrlng/chrlng.github.io-->
+  <section id="about-section" class="about-me-container">
     <h2>Hello World</h2>
     <div class="about-me">
       <div class="introduction">
+        <img class="profile-img" src="images/Profile.png" alt="">
         <p>Computer Science sophomore seeking an internship in software development. One year of experience in designing and building responsive user interfaces. Skilled in object oriented programming as well as quantitative analysis.</p>
       </div>
       <div class="container row" id="img-console">
@@ -72,7 +91,7 @@
               <span class="first-color">new</span>
               <span class="second-color">Resume(</span><span class="fourth-color">"</span>
               <!--
-              --><span><a href="ashleymanese_resume .pdf" class="fourth-color">pdf</a></span>
+              --><span><a href="ashleymanese_resume .pdf" class="fourth-color pdf-hover">pdf</a></span>
               <!--
                      --><span class="fourth-color">"</span><span class="second-color">)</span><span class="second-color">;</span>
               <br>
@@ -109,7 +128,7 @@
   </section>
 
     <!-- SKILLS -->
-    <section class="skills">
+    <section id="skill-section" class="skills">
       <h2>Technical Skills</h2>
       <ul class="cards">
         <li class="card-item">
@@ -148,42 +167,29 @@
 
 
     <!-- PROJECTS -->
-    <div class="projects">
+    <div id="project-section" class="projects">
       <h2>Projects</h2>
-      <div class="projects-row personal-website">
-         <figure>
-           <img src="images/personal-website.png" alt="">
-           <p>Personal Website</p>
-         </figure>
-          <ul class="project-list">
-              <li style="list-style-type: none">Built a responsive website using HTML, CSS, and JavaScript to showcase my resume. The site followed common UX design principles and was published on Github Pages.</li>
-              <br>
-              <li>Some images through Canva.</li>
-              <li>Studied flex box and grid to incorporate a responsive layout.</li>
-              <li>Created "Hello World" section with some inspiration from other websites. </li>
-              <li><a href="https://3100ashley.github.io/ashley-manese/" style="color:white">Link to Personal Website</a></li>
-          </ul>
-  
-      </div>
-      <div class="projects-row">
-        <figure>
-          <img src="images/memory_game.png" alt="">
-          <p>Memory Game</p>
-        </figure>
-        <ul class="project-list" >
-          <li style="list-style-type: none">Group project: Created an interactive game with HTML, CSS and Javascript. Users were able to communicate with the game’s logic through a graphic interface.</li>
-          <br>
-          <li>Created image cards through Canva.</li>
-          <li>Studied flex box and grid to incorporate a responsive layout.</li>
-          <li><a href="https://3100ashley.github.io/memory-game/" style="color:white">Link to Memory Game</a></li>
-        </ul>
+      <div class="project-icons">
+          <div class="project-container">
+            <a href="portfolio.html"><img src="images/computer.svg" alt="computer-img"></a>
+            <h3>Personal Project</h3>
+          </div>
+          <div class="project-container">
+              <a href="portfolio.html#game"> <img src="images/game.svg" alt=""></a>
+              <h3>Memory Game</h3>
+          </div>
+          <div class="project-container">
+            <a href="portfolio.html#class"> <img src="images/Class.svg" alt=""></a>
+            <h3>Class Projects</h3>
+          </div>
+          
       </div>
       <hr>
     </div>
 
 
     <!-- WORK EXPERIENCE -->
-    <div class="work-exp">
+    <div id="experience-section" class="work-exp">
       <h2>Work Experience</h2>
       <div class="work-row">
         <h3>Corps Advocate, AmeriCorps: Jumpstart</h3>
@@ -198,7 +204,7 @@
 
 
     <!-- EDUCATION -->
-    <div class="education-container">
+    <div id="education-section" class="education-container">
       <div class = "education">
         <h2>Education</h2>
           <div>
@@ -239,9 +245,9 @@
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <ul class="contact-list">
-            <li><a href="mailto:ashleymanese31@gmail.com">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/amanese31/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/3100ashley" target="_blank">Github</a></li>
+            <li><a class="pink-hover" href="mailto:ashleymanese31@gmail.com">Email</a></li>
+            <li><a class="pink-hover"href="https://www.linkedin.com/in/amanese31/" target="_blank">LinkedIn</a></li>
+            <li><a class="pink-hover" href="https://github.com/3100ashley" target="_blank">Github</a></li>
 
           </ul>
     </div>
@@ -255,7 +261,7 @@
   </div>
 
   <script src="scripts.js"></script>
-
+  
 </body>
 
 </html>

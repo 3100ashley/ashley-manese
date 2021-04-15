@@ -42,16 +42,56 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.pink-hover:hover {
   background-color: #DAC1C4;
 }
+
+/*------- NAV ------*/
+#nav{
+  font-family: 'Cutive Mono', monospace;
+  background: #272121;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+#nav a {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.dropbtn{
+  visibility: hidden;
+}
+
+.dropdown-content {
+  display: grid;
+  grid-template-columns: 2fr repeat(5, 1fr);
+  align-items: center;
+}
+
+
 /*---------- LANDING PAGE -----------*/
 /* #F8F3EF */
 .top-container {
   background-color: white;
   padding-top: 125px;
-  height: 250px;
+  height: 100vh;
+  align-items: center;
+ 
+
 }
+
+.top-container h1 {
+  font-size: 100px;
+}
+
+
+.top-container p {
+  font-size: 20px;
+}
+
 
 .programmer {
   font-family: 'Cutive Mono', monospace;
@@ -60,30 +100,38 @@ a:hover {
   margin-bottom: 0;
   padding-bottom: 45px;
 }
+
+
 /* #F8F3EF */
-.middle-container {
+/* .middle-container {
   background-color: white;
   padding-bottom: 0px;
   margin-bottom: 0;
+} */
+
+
+/*---------- ABOUT ME -----------*/
+.pdf-hover:hover {
+  background-color: gray;
 }
 
-.me {
-  border-radius: 100%;
-  height: 350;
-  width: 200px;
-  margin-bottom:50px;
-}
-/*---------- ABOUT ME -----------*/
 .introduction {
   margin: auto auto auto auto;
   width: 30%;
   text-align: left;
 }
+.profile-img {
+  border-radius: 100%;
+  height: 350;
+  width: 200px;
+  margin-bottom:50px;
+} 
 .about-me-container h2 {
   font-family: Montserrat;
   text-align: center;
   padding-top: 50px;
   color: #393e46;
+  
 
 }
 .about-me-container{
@@ -95,6 +143,7 @@ a:hover {
 
 .introduction p {
   font-family: 'Montserrat', sans-serif;
+  text-align: left;
 }
 
 
@@ -247,56 +296,69 @@ a:hover {
 
 /*---------- PROJECTS -----------*/
 
-figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .projects {
   background-color: #474d5a;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: white;
   padding-bottom: 30px;
+  height: 90vh;
+
 }
+.projects hr {
+  margin-top: 150px;
+}
+
+.project-icons{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+
+
+}
+
+.project-icons img {
+  height: 350px;
+  width: 350px;
+
+}
+
+.project-icons img:hover{
+  background-color: white; 
+  opacity: 0.1;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .projects h2 {
   padding-top: 50px;
   margin-top: 0;
-  margin-bottom: 25px;
-}
-.projects-row{
-  margin: auto auto auto auto;
-  text-align: left;
-  width: 75%;
-  display: grid;
-  grid-template-columns: 300px auto;
-  padding-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .personal-website {
   margin-top: 50px;
 
 }
-.projects-row p{
-  padding-left: 10px;
-  text-align: justify;
-  padding: 0;
 
-
-
-}
 figure img{
   width: 225px;
 }
 
-.project-list{
-  line-height: 150%;
-}
 
-.project-description{
-  display: flex;
-  flex-direction: column;
-}
 
 
 /*---------- CONTACT ME-----------*/
@@ -334,6 +396,24 @@ figure img{
   color: white;
   font-size: 0.75rem;
 }
+
+@media screen and (min-width:780px){
+
+  .top-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    height: 80vh;
+   
+  }
+
+  
+
+
+}
+
+ 
+
 
 
 @media screen and (min-width:1170px) {

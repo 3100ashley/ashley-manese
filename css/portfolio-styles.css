@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  height: 75vh;
+  gap: 100px;
+  
+}
+
+.content-container h2{
+  margin: auto;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 40px 
+}
+
+h1{
+  font-family: 'Lemon', 'sans-serif';
+  font-size: 55px;
+  color: white;
+}
+
+h2 {
+  color: #DAC1C4;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+}
+
+.inner{
+  height: 50%;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+ul a {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+.text {
+  margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+/*-----NAV----- */
+.top{
+  display: flex;
+  justify-content: center;
+  background: #272121;
+  padding-top: 25px;
+  padding-bottom: 25px;
+ 
+}
+
+.top div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+
+/*-----WEBSITE SECTION----- */
+
+.website-project{
+  padding-bottom: 50px;
+  background-color: #eff8ff;
+}
+
+
+
+
+
+/*-----GAME SECTION----- */
+
+.game-projects {
+  background-color: #474d5a;
+  padding-bottom: 50px;
+  
+}
+
+
+
+/*-----CLASS SECTION----- */
+.class-projects {
+  background-color: #F0F0F0;
+  padding-bottom:50px; 
+ 
+}
+.class-projects h2 {
+  margin-bottom: 50px;
+}
+.class-text{
+  margin-top: 100px;
+}
+
+.class-container {
+  margin-bottom: 25px;
+}
+
+
+/*---FOOTER----*/
+.bottom-container {
+  background-color: #D2A39F;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin: 0;
+
+   
+
+}
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+ 
+}
+
+
+
+
+
+
